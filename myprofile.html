@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <style>
+
+body {
+  background-image: url('image\greenbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+        /* Clear any floats to prevent layout issues */
+        .content::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+            #mainDiv{
+                width:100%;
+                display: inline-block;
+            }
+            
+            h1{
+                color:green;
+                text-align: center;
+            }
+
+            #cardHeading{
+                color:orange;
+            }
+            
+           .image-container {
+            width: 20%; /* Adjust the width as needed */
+            padding: 20px;
+            height: 100px; /* Padding for content inside the div */
+            float: left; /* Float the div to the left side */
+        }
+
+        /* Style the image to fit within the container */
+        .image-container img {
+            max-width: 100%; /* Make sure the image does not exceed the width of the container */
+            height: auto; /* Automatically adjust the height to maintain aspect ratio */
+            display: block; /* Remove any extra spacing around the image */
+            margin: 0 auto; /* Center the image horizontally within the div */
+        }
+            .card{
+                height:200px;
+                background-color:skyblue;
+                width:20%;
+                float:left;
+                margin:2%
+            }
+
+            .brown{
+                background-color:#c59f88;
+            }
+
+            #blue{
+                background-color:#90b6d1;
+            }
+
+            .gray{
+                background-color:#dcad8b;
+            }
+
+            .yellow{
+                background-color:#dbe334;
+            }
+
+            .red{
+                background-color:#d33625;
+            }
+
+            .card  img{
+                width:100%;
+                height:200px
+            }
+
+            /* Flex Box */
+            .flatCard{
+                width:80%;
+                margin-left: 10%;
+                height:150px;
+                background-color:rgb(181, 154, 222);
+                display:flex;
+            }
+
+            #imgDiv{
+                width:35%;
+                height:100%;
+            }
+
+            #imgDiv img{
+                height:100%;
+                width:100%
+            }
+
+            #textDiv{
+                width:60%;
+                margin-left: 3%;
+                height:100%;
+            }
+
+            .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+         </style>
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+        <header>
+            <h1 style=" color: green; font color: red;
+text-align: center;
+text-shadow: 4px 1px 2px yellow; border-radius: 20px; background-color:rgb(112, 60, 60);  margin-top: 50px;  margin-right: 80px; opacity: 0.5;
+ color: black; margin-left: 60px; margin-bottom: 50px; padding: 15px; height: 40px;
+  width: 90%;
+  border-color: green; border-style: ridge; border-width: 5px;">
+ ABOUT ME</h1>
+        </header>
+
+<section id="manali">
+    <div style="background:rgb(207, 210, 211)">
+      
+        <h3>
+            Hello, my name is Namratha and I am very glad to present my portfolio to you .
+            I have completed my bachelor's in computer science stream at St pious X degree and PG college for women in Hyderabad, TS .I am currently working as a senior technical associate for a US firm since one year. During my last year at university I learnt web desiginig and created a project named "FOOD KINGDOM", while working on the project I realised that I was putting my heart and soul into creating something  and  I did not care of anything else  and that's when I decided to have a career in web desigining and development.
+
+        </h3>
+        <center>
+            <img src="image\my.jpeg"  alt="manali"/>
+        </center>
+        
+    </div>
+</section>
+<hr/>
+
+<div class="image-container">
+    <img src="image\f.jpg"  alt="amsterdam"/>
+ 
+</div>
+
+<!-- Add content to the right of the left div -->
+<div class="content">
+<h1 style= "font color= green "> FACTS ABOUT ME</h1>
+ <h3>I love to design. I am very enthusiastic about creating and designing webpages. I am passionate about craft as well. I am self driven individual. I would want to learn new things at every stage of my life.
+ I am a good team player.</h3>
+  
+</div>
+<br>
+<br>
+
+<h1 style=" color: green;
+text-align: center;
+text-shadow: 4px 1px 2px yellow; border-radius: 5px; background-color:brown;  margin-top: 50px;  margin-right: 80px; opacity: 0.5;
+ color: black; margin-left: 30px; margin-bottom: 50px; padding: 25px; height: 10px;
+  width: 90%;
+  border-color: rgb(236, 108, 58); border-style: double; border-width: 5px;">
+ LANGUAGES KNOWN</h1>
+<section>
+        <div id="mainDiv">
+            <div class="card">
+                <img src="image\html.jpg" alt="html"/>
+                <p>HTML              </p>
+            </div>
+            <div class="card brown">
+                <img src="image\njs.jpg" alt="nodejs"/>
+                <p>
+                Node.js
+                </p>
+            </div>
+            <div class="card" id="blue">
+                <img src="image\css.jpg" alt="CSS"/>
+                <p>
+                 CSS
+                </p>
+            </div>
+            <div class="card gray">
+                <img src="image\re.jpg" alt="reactjs"/>
+                <p>
+                 React JS
+                </p>
+            </div>
+        
+             <div class="card red">
+            <img src="image\bs.jpg" alt="bootstrap"/>
+            <p>
+             Bootstrap
+            </p>
+        </div>
+    
+        <div class="card red">
+            <img src="image\js.jpg" alt="javascript"/>
+            <p>
+             Javascript
+            </p>
+        </div>
+    
+    <div class="card yellow">
+        <img src="image\mongoDB (1).jpg" alt="mongodb"/>
+        <p>
+         MongoDB
+        </p>
+    </div>
+</section>
+<br>
+
+<h1 style=" color: green;
+text-align: center;
+text-shadow: 4px 1px 2px yellow; border-radius: 5px; background-color:rgb(172, 52, 74);  margin-top: 50px;  margin-right: 80px; opacity: 0.5;
+ color: black; margin-left: 30px; margin-bottom: 50px; padding: 25px; height: 10px;
+  width: 90%;
+  border-color: rgb(18, 54, 90); border-style: double; border-width: 5px;">
+ SOCIAL MEDIA</h1>>
+    <div>
+ <a href="https://www.facebook.com/namratharaj.101" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Namratha" class="fa fa-twitter"></a>
+<a href="https://linkedin.com/in/Namratharaj" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/namratha_raj_101/" class="fa fa-instagram"></a>
+    </div>
+
+</body>
+</html>
